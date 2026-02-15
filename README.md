@@ -267,8 +267,3 @@ terraform destroy
 
 * Provider version drift: rerun `terraform init -upgrade` only when you intend to upgrade
 * Input changes: check `terraform.tfvars` and any exported env vars
-
-```
-
-If you paste your `variables.tf` (and the provider blocks in `provider.tf`), I’ll rewrite the README so it lists the exact variables and exact `.env` keys your config actually uses.
-```

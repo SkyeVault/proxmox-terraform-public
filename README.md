@@ -1,7 +1,7 @@
 # proxmox-terraform-public
 Creation of proxmox lxc on LAN - safe for tests
 
-# Terraform Module Usage Guide
+## Terraform Module Usage Guide
 
 This repo contains a minimal Terraform root module split across four files:
 

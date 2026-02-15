@@ -1,4 +1,4 @@
-# proxmox-terraform-public
+# Terraform automation for Proxmox
 Creation of proxmox lxc on LAN - safe for tests
 
 ## Terraform Module Usage Guide

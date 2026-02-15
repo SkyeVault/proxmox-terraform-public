@@ -268,22 +268,6 @@ terraform destroy
 * Provider version drift: rerun `terraform init -upgrade` only when you intend to upgrade
 * Input changes: check `terraform.tfvars` and any exported env vars
 
-### State problems
-
-* Do not delete `.terraform.lock.hcl` lightly
-* Never edit `terraform.tfstate` by hand
-* If you later add remote state, document it here and remove any local state before migrating
-
-## What to document next
-
-To make this README fully specific, add a short section listing:
-
-* The target platform (Proxmox, Cloudflare, etc.)
-* The required variables (copy from `variables.tf`)
-* Outputs you expect from `main.tf` (IPs, hostnames, DNS records)
-
-That turns this from a generic Terraform skeleton into a turnkey module.
-
 ```
 
 If you paste your `variables.tf` (and the provider blocks in `provider.tf`), I’ll rewrite the README so it lists the exact variables and exact `.env` keys your config actually uses.
